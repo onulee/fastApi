@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="{{ url_for('static', path='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h2>메인페이지</h2>
+    <h3>Item ID: {{ id }}</h3>
+
+    <ul>
+        <li><a href="/items/1">아이템 연결</a></li>
+        <li><a href="/member">member연결</a></li>
+    </ul>
+</body>
+</html>
